@@ -30,7 +30,7 @@
             <?php
             while ($servis = mysqli_fetch_object($DATA)) {
             ?>
-                <h3><?php echo "ID: " . $servis->id . " |  Adresa: " . $servis->adresa . " |  Grad: " . $servis->grad . " |  Tip servisa: " . $servis->naziv . " |  Cena: " . $servis->cena . " |  Majstor: " . $servis->ime_prezime . " | " ?>
+                <h3><?php echo "ID: " . $servis->id . " |  Datum: " . $servis->datum . " |  Adresa: " . $servis->adresa . " |  Grad: " . $servis->grad . " |  Tip servisa: " . $servis->naziv . " |  Cena: " . $servis->cena . " |  Majstor: " . $servis->ime_prezime . " | " ?>
                     <button class="btn btn-primary" id="edit-btn" value="<?php echo $servis->id ?>">Edit</button>
                 </h3>
             <?php
@@ -83,7 +83,7 @@
                                 ?>
                             </select>
 
-                            <button type="submit" class="btn btn-primary" name="sacuvaj_izmene_button">Sačuvaj</button>
+                            <button type="submit" class="btn btn-primary" name="sacuvaj_izmene_button" id="sacuvaj_izmene_button">Sačuvaj</button>
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nazad</button>
                         </form>
                     </div>

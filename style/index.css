@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #FFFAF4;
+    background-color: #FFFBF7;
 }
 
 #novi-servis-dgm, #ed-servis-dgm, #ss-servis-dgm{
@@ -19,7 +19,7 @@
 }
 
 #servis-ispis {
-    margin-left: 320px;
+    margin-left: 50px;
     margin-top: 40px;
 }
 
