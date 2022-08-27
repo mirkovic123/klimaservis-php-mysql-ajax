@@ -1,5 +1,6 @@
 $(function () {
     funkcije();
+    $('#tabela').DataTable();
 });
 
 function funkcije() {
