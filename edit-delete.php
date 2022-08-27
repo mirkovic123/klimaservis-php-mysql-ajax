@@ -50,13 +50,13 @@
                         <form method="POST">
                             <input type="hidden" id="servis_id">
                             <label class="form-label">Datum</label>
-                            <input type="text" class="form-control mb-2" name="edit_datum">
+                            <input type="text" class="form-control mb-2" name="edit_datum" id="edit_datum">
                             <label class="form-label">Adresa</label>
-                            <input type="text" class="form-control mb-2" name="edit_adresa">
+                            <input type="text" class="form-control mb-2" name="edit_adresa" id="edit_adresa">
                             <label class="form-label">Grad</label>
-                            <input type="text" class="form-control mb-2" name="edit_grad">
+                            <input type="text" class="form-control mb-2" name="edit_grad" id="edit_grad">
                             <label class="form-label">Tip servisa</label>
-                            <select class="form-select mb-3" name="edit_tip_servisa">
+                            <select class="form-select mb-3" name="edit_tip_servisa" id="edit_tip_servisa">
                                 <?php
                                 $DB_CONN = new mysqli("localhost", "root", "", "klimaservis");
                                 $SQL = "SELECT * from tip";
@@ -70,7 +70,7 @@
                                 ?>
                             </select>
                             <label class="form-label">Majstor</label>
-                            <select class="form-select mb-3" name="edit_majstor">
+                            <select class="form-select mb-3" name="edit_majstor" id="edit_majstor">
                                 <?php
                                 $SQL2 = "SELECT id, ime_prezime from majstor";
                                 $DATA2 = $DB_CONN->query($SQL2);
