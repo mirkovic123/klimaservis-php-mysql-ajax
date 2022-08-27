@@ -23,7 +23,7 @@
     margin-top: 40px;
 }
 
-#edit-btn{
+#edit-btn, #delete-btn{
     width: 100px;
     font-size: 20px;
 }

@@ -32,6 +32,7 @@
             ?>
                 <h3><?php echo "ID: " . $servis->id . " |  Datum: " . $servis->datum . " |  Adresa: " . $servis->adresa . " |  Grad: " . $servis->grad . " |  Tip servisa: " . $servis->naziv . " |  Cena: " . $servis->cena . " |  Majstor: " . $servis->ime_prezime . " | " ?>
                     <button class="btn btn-primary" id="edit-btn" value="<?php echo $servis->id ?>">Edit</button>
+                    <button class="btn btn-danger" id="delete-btn" value="<?php echo $servis->id ?>">Delete</button>
                 </h3>
             <?php
             }

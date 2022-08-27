@@ -57,4 +57,24 @@ function funkcije() {
 
     })
 
+
+    $(document).on('click', '#delete-btn', function () {
+
+        let servis_id = $(this).val();
+
+        $.ajax({
+            url: 'deleteservis.php',
+            method: 'post',
+            data: {
+                SERVIS_ID: servis_id,
+            },
+
+            success: function () {
+                alert('Servis je uspešno obrisan!');
+                location.reload();
+            }
+        });
+
+    })
+
 }
