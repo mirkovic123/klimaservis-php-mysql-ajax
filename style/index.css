@@ -4,7 +4,7 @@
     background-color: #FFFAF4;
 }
 
-#novi-servis-dgm{
+#novi-servis-dgm, #ed-servis-dgm, #ss-servis-dgm{
     width: 350px;
     height: 80px;
     margin-top: 100px;
@@ -17,3 +17,4 @@
     margin-left: 700px;
     font-size: 55px;
 }
+
