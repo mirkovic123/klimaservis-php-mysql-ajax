@@ -49,10 +49,10 @@ function funkcije() {
                 TIP_SERVISA: tip_servisa,
                 MAJSTOR_ID: majstor_id
             },
-            dataType: 'json',
 
             success: function () {
-
+                $('#izmena-servisa-modal').modal('hide');
+                location.reload();
             }
         });
 

@@ -48,7 +48,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form method="POST">
+                        <form>
                             <input type="hidden" id="servis_id">
                             <label class="form-label">Datum</label>
                             <input type="text" class="form-control mb-2" name="edit_datum" id="edit_datum">
@@ -84,7 +84,7 @@
                                 ?>
                             </select>
 
-                            <button type="submit" class="btn btn-primary" name="sacuvaj_izmene_button" id="sacuvaj_izmene_button">Sačuvaj</button>
+                            <button type="button" class="btn btn-primary" name="sacuvaj_izmene_button" id="sacuvaj_izmene_button">Sačuvaj</button>
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nazad</button>
                         </form>
                     </div>
