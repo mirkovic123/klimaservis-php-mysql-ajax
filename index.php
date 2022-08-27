@@ -18,10 +18,9 @@
 
         <div class="item-index">
             <button class="btn btn-danger" id="novi-servis-dgm" data-bs-toggle="modal" data-bs-target="#novi-servis-modal"> ADD </button>
-            <button class=" btn btn-danger" id="ed-servis-dgm"> EDIT | DELETE </button>
+            <a href="edit-delete.php"><button class=" btn btn-danger" id="ed-servis-dgm"> EDIT | DELETE </button></a>
             <button class="btn btn-danger" id="ss-servis-dgm"> SEARCH | SORT</button>
         </div>
-
 
 
         <!-- Forma modal za dodavanje novog urađenog servisa -->
